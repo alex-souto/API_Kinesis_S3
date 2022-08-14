@@ -6,18 +6,16 @@ The first approach was to learn how the architecture should work to later develo
 
 
 
-#Fist Step:
+
+
 
 ## EC2 deploy:
 
 Started by developing AWS EC2 using terraform and Ansible to automate the process of creating the virtual machine on AWS. The terraform is used to define the characteristics and rules of our virtual machine (security group, VPC, ingress/egress ports, protocols, CIDR etc...). Ansible serves once with the instance ready, it makes it possible to install applications/libraries automatically (in this case I only installed the nginx web server).
 
-#SecondStep:
-
 ## Kinesis Firehose and S3
 The creation and configuration of Kinesis and S3 were performed in the AWS console, as well as the automatic linking of the Data Stream with the S3 storage.
 
-# Third Step:
 
 ## API
 
