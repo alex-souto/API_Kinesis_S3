@@ -5,7 +5,7 @@ It was my first time dealing with all technologies and tools involved since Clou
 The first approach was to learn how the architecture should work to later develop each partition individually, as I was searching and filtering information I was trying to adjudicate to the challenge to try to grant it as quickly as possible. I immediately realized that it was going to take a little longer than I had initially thought.
 
 
-
+![](tracking_api_service.png)
 
 
 
