@@ -21,7 +21,7 @@ The creation and configuration of Kinesis and S3 were performed in the AWS conso
 
 ## API
 
-I decided to choose to use Flask in the development of my application, as it is a very intuitive and practical python framework, as we can easily find online documentation. To still be able to connect the API with our web server (nginx) we need an HTTP server that can handle python files, more precisely a WSGI, in which I used gunicorn. Later, to test the connectivity of my API, I tested it with the curl command through my command to facilitate the process.
+I decided to choose to use Flask in the development of my application, as it is a very intuitive and practical python framework, as we can easily find online documentation. To still be able to connect the API with our web server (nginx) we need an HTTP server that can handle python files, more precisely a WSGI, in which I used gunicorn. Later, to test the connectivity of my API, I tested it with the curl command through commandline to facilitate the process.
 
 
 Thank you,  Alexandre Souto.
